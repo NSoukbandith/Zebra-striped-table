@@ -1,0 +1,40 @@
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana;
+}
+
+th, td{
+  padding: 15px
+   
+}
+
+.hover {
+  background-color: black;
+}
+
+td:nth-child(odd){
+  background-color: blue; 
+}
+
+th:nth-child(even){
+  background-color:red;
+}
+
+td:nth-child(even){
+  background-color: red;
+}
+
+
+tr:nth-child(odd){
+  background-color: red;
+}
+tr:nth-child(even){
+  background-color: blue;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  
+}
